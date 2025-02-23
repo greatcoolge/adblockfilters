@@ -48,6 +48,9 @@ jobs:
           fi
           echo "✅ SmartDNS 已成功启动。"
 
+          # 测试 DNS 解析
+          dig github.com @127.0.0.1 -p 5053 || echo "⚠️ SmartDNS 无法解析 github.com"
+
           echo "⚡ 生成黑名单..."
           if ! python blacklist.py; then
             echo "❌ 黑名单生成失败，退出。"
