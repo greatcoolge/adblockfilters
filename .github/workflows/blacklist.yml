@@ -1,4 +1,5 @@
 name: Generate Blacklist
+
 on: 
   workflow_dispatch:
   schedule:
@@ -15,10 +16,10 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
 
       - name: Setup Python 3.9.x
-        uses: actions/setup-python@main
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9.x'
 
@@ -28,29 +29,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install -U tld IPy dnspython httpx loguru
 
-      - name: Setup SmartDNS
+      - name: Setup and Run SmartDNS with Blacklist Generation
+        id: update
         run: |
+          echo "⚡ 设置 SmartDNS..."
           mkdir -p $SMARTDNS_PATH
-          wget $SMARTDNS_URL -O $SMARTDNS_PATH/smartdns || { echo "Failed to download SmartDNS"; exit 1; }
+          wget $SMARTDNS_URL -O $SMARTDNS_PATH/smartdns || { echo "❌ 下载 SmartDNS 失败"; exit 1; }
           chmod +x $SMARTDNS_PATH/smartdns
           cp smartdns.conf $SMARTDNS_PATH/smartdns.conf
           nohup $SMARTDNS_PATH/smartdns -f -x -c $SMARTDNS_PATH/smartdns.conf > $SMARTDNS_PATH/smartdns.log 2>&1 &
-          
-          # 等待 SmartDNS 启动
           sleep 5
-          
-          # 检查 SmartDNS 是否成功启动
+
+          # 检查 SmartDNS 是否启动
           if ! pgrep -f "smartdns" > /dev/null; then
-            echo "SmartDNS failed to start."
+            echo "❌ SmartDNS 启动失败，日志如下："
+            tail -n 20 $SMARTDNS_PATH/smartdns.log
             exit 1
           fi
-          
-          echo "SmartDNS started, logs can be found in $SMARTDNS_PATH/smartdns.log"
+          echo "✅ SmartDNS 已成功启动。"
 
-      - name: Generate Blacklist
-        id: update
-        run: |
-          python blacklist.py || { echo "Blacklist generation failed"; exit 1; }
+          echo "⚡ 生成黑名单..."
+          if ! python blacklist.py; then
+            echo "❌ 黑名单生成失败，退出。"
+            exit 1
+          fi
           rm -rf __pycache__
           echo "message=$(date)" >> $GITHUB_OUTPUT
 
