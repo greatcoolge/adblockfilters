@@ -25,7 +25,7 @@ class InviZible(APPBase):
             
             # 生成规则文件
             with open(fileName, 'a') as f:
-                f.write("!\n")
+                f.write("#\n")
                 if isLite:
                     f.write("# Title: AdBlock InviZible Lite\n")
                     f.write("# Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：%s。Lite 版仅针对国内域名拦截。\n"%(self.sourceRule))
