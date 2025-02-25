@@ -399,10 +399,10 @@
 ||weather-analytics-events.apple.com^
 ||www.fmiphone-apple.com^
 ||www.view-apple.com^
-||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com ^
+||ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com ^
 ||ad-sh-sz-zb.wagbridge.tanx.alimama.com^
-||default.cn.sz.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
-||default.cn.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
+||default.cn.sz.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
+||default.cn.wagbridge.ad.alibabacorp.com.gds.alibabadns.com ^
 ||default.cn.sz.wagbridge.ad.alibabacorp.com^
 ||default.cn.wagbridge.ad.alibabacorp.com^
 ||df.tanx.com^
