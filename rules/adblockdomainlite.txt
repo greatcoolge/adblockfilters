@@ -1,12 +1,12 @@
 !
-! Title: AdBlock InviZible Lite
-! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、uBlock filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、SmartTV Blocklist、halflife、NoAppDownload、QuarkList、DD-AD、banad、Ad Filter J、Fuck Fuckadblock、GOODBYEADS、1Hosts (Lite)、AdRules DNS List、NEO DEV HOST、OISD Big、AWAvenue Ads Rule、d3ward、BlueSkyXN skyrules、mitv-blacklist、1024 hosts、ad-wars hosts、StevenBlack hosts、QuarkList hosts、ilpl、xiaobeita、WindowsSpyBlocker、eth-phishing-detect、Badd-Boyz-Hosts、URLhaus、DigitalSide Threat-Intel、dns-blocklists、newhosts-final、medium。Lite 版仅针对国内域名拦截。
-! Homepage: https://github.com/217heidai/adblockfilters
-! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20250225115332
-! Last modified: 2025/02/25 11:53:32
-! Blocked domains: 5857
-!
+# Title: AdBlock InviZible Lite
+# Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、uBlock filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、SmartTV Blocklist、halflife、NoAppDownload、QuarkList、DD-AD、banad、Ad Filter J、Fuck Fuckadblock、GOODBYEADS、1Hosts (Lite)、AdRules DNS List、NEO DEV HOST、OISD Big、AWAvenue Ads Rule、d3ward、BlueSkyXN skyrules、mitv-blacklist、1024 hosts、ad-wars hosts、StevenBlack hosts、QuarkList hosts、ilpl、xiaobeita、WindowsSpyBlocker、eth-phishing-detect、Badd-Boyz-Hosts、URLhaus、DigitalSide Threat-Intel、dns-blocklists、newhosts-final、medium。Lite 版仅针对国内域名拦截。
+# Homepage: https://github.com/217heidai/adblockfilters
+# Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
+# Version: 20250225161539
+# Last modified: 2025/02/25 16:15:39
+# Blocked domains: 5848
+#
 00xvppy.cn
 img.0279.net
 027dir.com
@@ -833,7 +833,6 @@ advertise.baicizhan.com
 a.baidinet.com
 union.baidu.cn
 a.baidu.com
-ada.baidu.com
 adavideo.baidu.com
 adm.baidu.com
 adscdn.baidu.com
@@ -842,6 +841,7 @@ als.baidu.com
 anquan.baidu.com
 anti-bot.baidu.com
 antivirus.baidu.com
+api.cpu.baidu.com
 appc.baidu.com
 as.baidu.com
 as1.wenku.baidu.com
@@ -862,7 +862,6 @@ cm.baidu.com
 collector.dcdn.baidu.com
 cpro.baidu.com
 cpro.zhidao.baidu.com
-cpu.baidu.com
 cpucdn.baidu.com
 crab.baidu.com
 crs.baidu.com
@@ -1139,7 +1138,6 @@ hw-v2-web-player-tracker.biliapi.net
 data.bilibili.com
 interface.bilibili.com
 miniapp.bilibili.com
-biligame.com
 line1-log.biligame.net
 mcdn.bilivideo.com
 bingdianhuanyuan.cn
@@ -1702,8 +1700,6 @@ cloud-q.duba.net
 vinted-pl-gj32d.dubrava.top
 vinted-pl-lzlxo.dubrava.top
 img.dubyc.com
-dui88.com
-duiba.com.cn
 duicloud.cn
 union.duizhuang.com
 sky.dunsuan.com
@@ -2635,7 +2631,6 @@ cm.jd.com
 dns.jd.com
 dsp-x.jd.com
 firevent.jd.com
-gia.jd.com
 im-x.jd.com
 img-x.jd.com
 janapi.jd.com
@@ -3790,7 +3785,6 @@ adsview.qq.com
 adsview2.qq.com
 adv.app.qq.com
 adver.qq.com
-aegis.qq.com
 analy.qq.com
 analytics.map.qq.com
 api.youtu.qq.com
@@ -3839,7 +3833,6 @@ kuaibao.qq.com
 l.qq.com
 lcsdk.3g.qq.com
 lives.l.ott.video.qq.com
-log.tbs.qq.com
 log.wtlogin.qq.com
 log1.wtlogin.qq.com
 log6.reader.qq.com
@@ -4883,7 +4876,6 @@ yapi.apk.v-mate.mobi
 1.v-x.com.cn
 ad.v3mh.com
 ads.v3mh.com
-v6lvs.com
 vabzndw.cn
 vaekkfv.cn
 vamaker.com
@@ -5718,7 +5710,6 @@ adstatic.zhihu.com
 crash2.zhihu.com
 event.zhihu.com
 mqtt.zhihu.com
-oia.zhihu.com
 sugar.zhihu.com
 udd1i5.zhihu.com
 zhihu-web-analytics.zhihu.com
