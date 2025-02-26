@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、uBlock filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、SmartTV Blocklist、halflife、NoAppDownload、QuarkList、DD-AD、banad、Ad Filter J、Fuck Fuckadblock、GOODBYEADS、1Hosts (Lite)、AdRules DNS List、NEO DEV HOST、OISD Big、AWAvenue Ads Rule、d3ward、BlueSkyXN skyrules、mitv-blacklist、1024 hosts、ad-wars hosts、StevenBlack hosts、QuarkList hosts、ilpl、xiaobeita、WindowsSpyBlocker、eth-phishing-detect、Badd-Boyz-Hosts、URLhaus、DigitalSide Threat-Intel、dns-blocklists、newhosts-final、medium、qy-Ads-Rule、AdRules、HyperADRules-allow。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20250226161553
-# Last modified: 2025/02/26 16:15:53
-# Blocked domains: 10748
+# Version: 20250226172329
+# Last modified: 2025/02/26 17:23:29
+# Blocked domains: 10744
 #
 DOMAIN-SUFFIX,00-gov.cn
 DOMAIN-SUFFIX,0000y.cn
@@ -8179,7 +8179,6 @@ DOMAIN-SUFFIX,szyhcq.com.cn
 DOMAIN-SUFFIX,szyhjhgc.com
 DOMAIN-SUFFIX,t2.szyweb.com
 DOMAIN-SUFFIX,szyydz.com.cn
-DOMAIN-SUFFIX,t.cn
 DOMAIN-SUFFIX,t1n.cn
 DOMAIN-SUFFIX,t28goe.cn
 DOMAIN-SUFFIX,metrics.t3go.cn
@@ -8515,7 +8514,6 @@ DOMAIN-SUFFIX,tlauncher.cn
 DOMAIN-SUFFIX,tlmybj.cn
 DOMAIN-SUFFIX,tlsgq.cn
 DOMAIN-SUFFIX,jx.tmall.com
-DOMAIN-SUFFIX,s.click.tmall.com
 DOMAIN-SUFFIX,tmuseum.com.cn
 DOMAIN-SUFFIX,tndtjhx.com.cn
 DOMAIN-SUFFIX,pxx.tnklrs.cn
@@ -8820,7 +8818,7 @@ DOMAIN-SUFFIX,adscfg.uqualities.com
 DOMAIN-SUFFIX,adsoss.uqualities.com
 DOMAIN-SUFFIX,urhu.cn
 DOMAIN-SUFFIX,uri6.com
-DOMAIN-SUFFIX,url.cn
+DOMAIN-SUFFIX,d.url.cn
 DOMAIN-SUFFIX,urlqh.cn
 DOMAIN-SUFFIX,urqwzbu.cn
 DOMAIN-SUFFIX,usltmus.cn
@@ -9665,7 +9663,6 @@ DOMAIN-SUFFIX,lg.api.xmpush.xiaomi.com
 DOMAIN-SUFFIX,live.miphone.pandora.xiaomi.com
 DOMAIN-SUFFIX,log.pt.xiaomi.com
 DOMAIN-SUFFIX,logs.n.xiaomi.com
-DOMAIN-SUFFIX,m.video.xiaomi.com
 DOMAIN-SUFFIX,mantual.pandora.xiaomi.com
 DOMAIN-SUFFIX,market.xiaomi.com
 DOMAIN-SUFFIX,media.pre.pandora.xiaomi.com
@@ -9757,7 +9754,6 @@ DOMAIN-SUFFIX,tz.sec.xiaomi.com
 DOMAIN-SUFFIX,upgrade.pandora.xiaomi.com
 DOMAIN-SUFFIX,user.pandora.xiaomi.com
 DOMAIN-SUFFIX,userid.xiaomi.com
-DOMAIN-SUFFIX,verify.sec.xiaomi.com
 DOMAIN-SUFFIX,vip-api.xmpush.xiaomi.com
 DOMAIN-SUFFIX,vip-api.xmpush.global.xiaomi.com
 DOMAIN-SUFFIX,vip.api.xmpush.xiaomi.com
