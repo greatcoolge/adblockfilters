@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、uBlock filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、SmartTV Blocklist、halflife、NoAppDownload、QuarkList、DD-AD、banad、Ad Filter J、Fuck Fuckadblock、GOODBYEADS、1Hosts (Lite)、AdRules DNS List、NEO DEV HOST、OISD Big、AWAvenue Ads Rule、d3ward、BlueSkyXN skyrules、mitv-blacklist、1024 hosts、ad-wars hosts、StevenBlack hosts、QuarkList hosts、ilpl、xiaobeita、WindowsSpyBlocker、eth-phishing-detect、Badd-Boyz-Hosts、URLhaus、DigitalSide Threat-Intel、dns-blocklists、newhosts-final、medium、qy-Ads-Rule、AdRules、HyperADRules-allow。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20250228085236
-! Last modified: 2025/02/28 08:52:36
-! Blocked Filters: 47438
+! Version: 20250228161528
+! Last modified: 2025/02/28 16:15:28
+! Blocked Filters: 47449
 !
 ###AC_ad
 ###AD_160
@@ -26448,6 +26448,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||getfreecourses.*^$ghide
 @@||getitfree.cn/wp-content/plugins/adunblocker/public/js/banner_ads_*.js
 @@||getyourbitco.in^$ghide
+@@||gg.wudizuqiu.com/72nba.js
 @@||ghxi.com^$stealth=dpi
 @@||gia.jd.com^$important
 @@||gifshow.com/rest/wd/common/log/collect/acfun
@@ -27784,6 +27785,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||remixsearch.co^$ghide
 @@||remote-data.urbanairship.com^$app=com.caribou.caribouapp
 @@||renfei.net^$generichide
+@@||res.aidegelin.cn/dom2/js/app.js$domain=69xx03608.xyz
+@@||res.aidegelin.cn/dom2/js/com.js$domain=69xx03608.xyz
 @@||res.imtt.qq.com^$important
 @@||resolver.msg.xiaomi.net^$important
 @@||right.com.cn/forum/*300*250$image
@@ -28084,6 +28087,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||shrink.*^$ghide
 @@||shrt10.com^$ghide
 @@||shrtfly.*^$ghide
+@@||simg.doubanio.com^$stealth=referrer,domain=douban.com
 @@||simg.sinajs.cn^$important
 @@||simplelogin.io^$cookie
 @@||simply-hentai.com^$ghide
@@ -37720,6 +37724,14 @@ nextorrent.*##+js(ra, onclick)
 nextpit.*##.cpgSlot
 nextpit.com.br,nextpit.it,nextpit.es,nextpit.fr,nextpit.com,androidpit.com.br##.gptSlot
 nexus-games.net,ppssppisoclub.com##a[href*="?php echo substr(md5(microtime())"]
+nfuwow.com###dl-left-first
+nfuwow.com###dl-right-first
+nfuwow.com##.adtopnewnewbox
+nfuwow.com##.bannermid3box
+nfuwow.com##.crightbtad
+nfuwow.com##.midbgdbox
+nfuwow.com##a[href*="myyj.net"]
+nfuwow.com##div[style*="width: 1160px;"]
 nhlstream.net,nbastream.net##a[href="/watch-live/"]
 niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.article-pe-video-wrapper
 niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.globalHeaderBillboard
@@ -42014,7 +42026,6 @@ win7xzb.com##.four_box
 win7xzb.com##.ware_gs
 winaero.com$$script[wildcard="*.innerHTML*.parentNode.insertBefore*"][max-length="2000"]
 winandmac.com,nicekkk.com###custom_html-3
-windows7en.com##.fu-welcome
 windowsactivationkey.com,mrpcgamer.co,hornygamer.com##center > a[onclick^="window.open("]
 windowsnoticias.com,movilforum.com,mrlabtest.com##.publi
 wingeno.org,winshell.org#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -42300,10 +42311,6 @@ xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
 xfemaledom.com,xanimu.com#?#div[class*="col-6 col-md-3 col-lg-3 col-xl-2"]:has(> #special-block)
-xgan.cn##.bottom_fixed
-xgan.cn##.container center > a[target="_blank"] > img
-xgan.cn##a[href^="https://www.jspp9.xyz"]
-xgan.cn##body > center > a[target="_blank"][rel="nofollow"]
 xgcartoon.com,dailygh.com###video-top-ad
 xgore.net,mehndihairachnewaali.com##.e3lan
 xgroovy.com,rushporn.xxx###main_video_fluid_html_on_pause
@@ -44604,6 +44611,7 @@ zzzyk.com###Tinfo
 ||douyin.com/api/user/getPcBanner?
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
+||down-id.img.susercontent.com/file/*.webp$domain=lk21.am.in
 ||down.tgjkbx.cn/xxjs/$script
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
@@ -45934,6 +45942,7 @@ zzzyk.com###Tinfo
 ||newume.com/v1/data/ume-
 ||newyx.net^*/down_yd.js
 ||nextdoor.*/ajax/ping_ndas/
+||nfuwow.com/static/nfuwow/source/front/new/images/
 ||niuacc.com/static/common/js/145.js
 ||niuza.com^$image,subdocument,third-party
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
@@ -46926,6 +46935,8 @@ zzzyk.com###Tinfo
 ||ubt.tracking.shopee.
 ||uc*.atobo.com^
 ||uc.cn/collect?
+||uc129.com/images/top_hjsj.jpg
+||uc129.com/m/
 ||ucweb.com/collect/
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||uii.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.google.com *.googletagmanager.com *.recaptcha.net
