@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、uBlock filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、SmartTV Blocklist、halflife、NoAppDownload、QuarkList、DD-AD、banad、Ad Filter J、Fuck Fuckadblock、GOODBYEADS、1Hosts (Lite)、AdRules DNS List、NEO DEV HOST、OISD Big、AWAvenue Ads Rule、d3ward、BlueSkyXN skyrules、mitv-blacklist、1024 hosts、ad-wars hosts、StevenBlack hosts、QuarkList hosts、ilpl、xiaobeita、WindowsSpyBlocker、eth-phishing-detect、Badd-Boyz-Hosts、URLhaus、DigitalSide Threat-Intel、dns-blocklists、newhosts-final、medium、qy-Ads-Rule、AdRules、HyperADRules-allow。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250304161442
-! Last modified: 2025/03/04 16:14:42
-! Blocked domains: 11289
+! Version: 20250305001454
+! Last modified: 2025/03/05 00:14:54
+! Blocked domains: 11274
 ! unBlocked domains: 950
 !
 ||00-gov.cn^
@@ -55,7 +55,6 @@
 ||m.0898xlj.cn^
 ||08ta.com^
 ||0941.org^
-||098kjvhh.shop^
 ||0c1q0l.cn^
 ||cdn.0i-i0.com^
 ||0olut8.cn^
@@ -221,6 +220,7 @@
 ||ac.dun.163yun.com^
 ||ye.dun.163yun.com^
 ||165tchuang.com^
+||166jl.cn^
 ||analytics.1688.com^
 ||cui.m.1688.com^
 ||dj.1688.com^
@@ -293,7 +293,6 @@
 ||wm.20150.net^
 ||201ttkj.cn^
 ||20201314.cn^
-||2025cm88.xyz^
 ||2025sgb.asia^
 ||2025sgc.asia^
 ||2025sgd.asia^
@@ -479,7 +478,6 @@
 ||d-test.39.net^
 ||dpvc.39.net^
 ||thetestpage.39.net^
-||127.0.0.1wz.3911.com^
 ||wz.3911.com^
 ||3975.com^
 ||classic.39health.com^
@@ -518,7 +516,6 @@
 ||41ku.cn^
 ||426g.com^
 ||stat.api.4399.com^
-||46545hgj.top^
 ||4774884kk.cn^
 ||p2link.483n.com^
 ||4a9.cn^
@@ -621,7 +618,6 @@
 ||m.53trya.cn^
 ||54.222.186.106^
 ||54417.cn^
-||5454djhv.shop^
 ||54kefu.net^
 ||54ly.com^
 ||54zc.cn^
@@ -803,7 +799,6 @@
 ||8315.cn^
 ||83ejjf07h.cn^
 ||84206.com^
-||85917.agency^
 ||m.85rvq.cn^
 ||85ul.cn^
 ||2012.8684.com^
@@ -903,7 +898,6 @@
 ||9800.com^
 ||e.980he.cn^
 ||m.980he.cn^
-||98797gfdg.icu^
 ||98hx.cn^
 ||98vjs8j3k5g.top^
 ||whfpbc.99.com.cn^
@@ -1995,7 +1989,6 @@
 ||a.bfking.cn^
 ||bfshan.cn^
 ||bga100.cn^
-||bgbfg2525.top^
 ||bgirz.cn^
 ||4mtjzwz.bgjjwl.cn^
 ||ee1zz2a.bgjjwl.cn^
@@ -2235,7 +2228,6 @@
 ||touduanyiyuan.bugmakerx.cn^
 ||ylmcbeta-invite.bugmakerx.cn^
 ||buydiscountmeds.com.cn^
-||bvbv2535.top^
 ||bvrvvvv.com.cn^
 ||mastercard-orexicible.bvswu.cn^
 ||bvubasnf.com^
@@ -2806,7 +2798,6 @@
 ||cuvtnzv.cn^
 ||cuxqy.com^
 ||cvcbbn14.xyz^
-||cvdv543.shop^
 ||cvfgere96.cn^
 ||cvfww.cn^
 ||cvtaobao.cn^
@@ -3869,7 +3860,6 @@
 ||gdbmkj.com.cn^
 ||gdby.com.cn^
 ||gddingtian.com.cn^
-||gdfg2452f.icu^
 ||gdfyhg56.xyz^
 ||gdhongyu17.cn^
 ||gdicoou.com^
@@ -4056,7 +4046,6 @@
 ||toolbar.google.com^
 ||www-google-analytics.l.google.com^
 ||www-googletagmanager.l.google.com^
-||googleads.org.cn^
 ||googleadservices-cn.com^
 ||googleadservices.com^
 ||googlealiyun.cn^
@@ -4757,7 +4746,6 @@
 ||hxhjyhsy.xin^
 ||hxjdwx.com.cn^
 ||hxwscp.cn^
-||hxwy2000.com^
 ||hy-cn.cn^
 ||m.hy10010.com.cn^
 ||www.hyfyuan.com^
@@ -4911,7 +4899,6 @@
 ||region.ihuman.com^
 ||jaccs-methodian.iigmx.cn^
 ||ad.iii.co.uk^
-||iiijhf54822.shop^
 ||iimedia.cn^
 ||ijinshan.com^
 ||api.ijunhai.com^
@@ -5942,6 +5929,7 @@
 ||lolblog.cn^
 ||lomark.cn^
 ||longbeierfs.cn^
+||loomind.cn^
 ||looyu.com^
 ||loprr.cn^
 ||lostheaven.com.cn^
@@ -6680,7 +6668,6 @@
 ||nkscdn.com^
 ||saisoncard-foenoon.nlxekygh.cn^
 ||nlyuuy.cn^
-||nmdjpwgmw.cn^
 ||nmgjggwdx.org.cn^
 ||nmgkr.com.cn^
 ||nmgyllh.cn^
@@ -8030,7 +8017,6 @@
 ||www.shuzhundsj.cn^
 ||shuzilm.cn^
 ||matomo.yujin.shuziyunyao.com^
-||shvisa.com.cn^
 ||m.shwedar.com.cn^
 ||shweiwen.cn^
 ||shxinjie.cn^
@@ -8916,6 +8902,7 @@
 ||thering.cn^
 ||sstats.thermofisher.com.cn^
 ||event.thermoscientific.cn^
+||thetokaedis.top^
 ||thetollroads.homes^
 ||thetollroads.lat^
 ||thetollroads.pics^
@@ -9267,7 +9254,6 @@
 ||ujian.cc^
 ||ujovcb.cn^
 ||uk8866.cn^
-||ukmh4dfv.top^
 ||ukosgolfcart.com^
 ||uljoifw.cn^
 ||megadatav7.ultralisk.cn^
@@ -9395,7 +9381,6 @@
 ||m.vcsoat.cn^
 ||vcugbgu.cn^
 ||ww38.ks21131685381628.vdqfiei.cn^
-||vdv45dc4d.shop^
 ||vdvcjlp.cn^
 ||vegaschina.cn^
 ||vegent.cn^
@@ -9608,7 +9593,6 @@
 ||vu7r6.cn^
 ||vuhidf.cn^
 ||vungle.cn^
-||vvcbg1120.top^
 ||e.vvme9.cn^
 ||m.vvme9.cn^
 ||vvv111.com.cn^
@@ -10506,6 +10490,7 @@
 ||xydus.cn^
 ||xyizgh.cn^
 ||ad.xyniubi.com^
+||xyribbon.cn^
 ||xyvzn.cn^
 ||a.xywy.com^
 ||bdmjs.xywy.com^
