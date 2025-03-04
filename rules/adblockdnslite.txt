@@ -3,10 +3,10 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、uBlock filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、SmartTV Blocklist、halflife、NoAppDownload、QuarkList、DD-AD、banad、Ad Filter J、Fuck Fuckadblock、GOODBYEADS、1Hosts (Lite)、AdRules DNS List、NEO DEV HOST、OISD Big、AWAvenue Ads Rule、d3ward、BlueSkyXN skyrules、mitv-blacklist、1024 hosts、ad-wars hosts、StevenBlack hosts、QuarkList hosts、ilpl、xiaobeita、WindowsSpyBlocker、eth-phishing-detect、Badd-Boyz-Hosts、URLhaus、DigitalSide Threat-Intel、dns-blocklists、newhosts-final、medium、qy-Ads-Rule、AdRules、HyperADRules-allow。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250304001458
-! Last modified: 2025/03/04 00:14:58
-! Blocked domains: 11239
-! unBlocked domains: 951
+! Version: 20250304085314
+! Last modified: 2025/03/04 08:53:14
+! Blocked domains: 11237
+! unBlocked domains: 952
 !
 ||00-gov.cn^
 ||0000y.cn^
@@ -770,7 +770,6 @@
 ||olx-pl.784522.xyz^
 ||1.78500.cn^
 ||7895983.cn^
-||sig-api.78ai.cn^
 ||7car.com.cn^
 ||7cbwus.cn^
 ||7cjsh.cn^
@@ -5489,7 +5488,6 @@
 ||wap.koudaitong.com^
 ||kpain.cn^
 ||kpbqlqv.cn^
-||dis.kpi7.cn^
 ||ilkibxendu.kpuatk.cn^
 ||nzbfmzfg.kpuatk.cn^
 ||kpzip.com^
@@ -11250,6 +11248,7 @@
 @@||ad.10010.com^
 @@||img.client.10010.com^
 @@||m1.img.10010.com^
+@@||nisportal.10010.com^
 @@||txwk.10010.com^
 @@||adm.10jqka.com.cn^
 @@||126.am^
