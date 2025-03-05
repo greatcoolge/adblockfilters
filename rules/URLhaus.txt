@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2025-03-04 16:51:34 (UTC)                      #
+# Last updated: 2025-03-05 08:09:05 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -33,6 +33,7 @@
 127.0.0.1	applepistudios.com
 127.0.0.1	apps-actions.com
 127.0.0.1	armanayegh.com
+127.0.0.1	aulist.com
 127.0.0.1	avastcxp.com
 127.0.0.1	avastcxt.com
 127.0.0.1	avastexodus.com
@@ -48,6 +49,7 @@
 127.0.0.1	blessdayservices.org
 127.0.0.1	bmdcompany.com
 127.0.0.1	book.rollingvideogames.com
+127.0.0.1	bruta.pl
 127.0.0.1	buscascolegios.diit.cl
 127.0.0.1	caffechian.com
 127.0.0.1	cambodiatouristservice.com
@@ -73,6 +75,7 @@
 127.0.0.1	chinaapper.com
 127.0.0.1	chromeupd-mo.com
 127.0.0.1	ciscocdn.com
+127.0.0.1	clinicadermalaser.es
 127.0.0.1	cnc-boatnet.vpnvn4g.com
 127.0.0.1	coach.028csc.com
 127.0.0.1	coadymarine.com
@@ -85,6 +88,7 @@
 127.0.0.1	dangtienluc.com
 127.0.0.1	data.yhydl.com
 127.0.0.1	datashieldsecure.com
+127.0.0.1	dcwblida.dz
 127.0.0.1	deturistaenjapon.com
 127.0.0.1	dev.gestroom.it
 127.0.0.1	device.redirec.com
@@ -92,11 +96,13 @@
 127.0.0.1	dianzanla.com
 127.0.0.1	disk.accord1key.cn
 127.0.0.1	divvanews.com
+127.0.0.1	dl.1003b.56a.com
 127.0.0.1	dl.aginjector.com
 127.0.0.1	dl.packetstormsecurity.net
 127.0.0.1	dld.jxwan.com
 127.0.0.1	dow.andylab.cn
 127.0.0.1	down.fwqlt.com
+127.0.0.1	down.gmexiochappt.com
 127.0.0.1	down.mvip8.ru
 127.0.0.1	down.pcclear.com
 127.0.0.1	down.qqfarmer.com.cn
@@ -126,8 +132,8 @@
 127.0.0.1	fundrescuetech.com
 127.0.0.1	funletters.net
 127.0.0.1	g12se.com
-127.0.0.1	gachetroi.com
 127.0.0.1	genericfixer.com
+127.0.0.1	glennmedina.com
 127.0.0.1	grupobramam.com.br
 127.0.0.1	highway-loads.com
 127.0.0.1	hitman-pro.ru
@@ -140,7 +146,6 @@
 127.0.0.1	immo-etoiles.fr
 127.0.0.1	information-binance.com
 127.0.0.1	ini.sh-pp.com
-127.0.0.1	inspirepk.org
 127.0.0.1	jade-associates.com.br
 127.0.0.1	jahez.me
 127.0.0.1	javierlopez.eu
@@ -161,10 +166,10 @@
 127.0.0.1	littlemtlogistics.net
 127.0.0.1	livemap-loads.com
 127.0.0.1	livemap-trucks.com
-127.0.0.1	livetrack.in
 127.0.0.1	lostheaven.com.cn
 127.0.0.1	lsks.volamngayxua.net
 127.0.0.1	lucprofessional.com.br
+127.0.0.1	lucprofessional.grupomoltz.com.br
 127.0.0.1	luncrist.es
 127.0.0.1	m.gutousoft.com
 127.0.0.1	mail.cambodiatouristservice.com
@@ -183,6 +188,7 @@
 127.0.0.1	mitgpssms.com
 127.0.0.1	miz2.dorklifedubbed.shop
 127.0.0.1	monekam.shop
+127.0.0.1	moonloaderupdate.ru
 127.0.0.1	mta179.insuretn.com
 127.0.0.1	mta210.marthaaustinwhite.com
 127.0.0.1	my.salviatech.com
@@ -198,8 +204,8 @@
 127.0.0.1	palharesinformatica.com.br
 127.0.0.1	park.chuitian.cn
 127.0.0.1	parmisbuilding.com
-127.0.0.1	paulinatajda.com
 127.0.0.1	pcbuilts.com
+127.0.0.1	peazonyas.ink
 127.0.0.1	pid.fly160.com
 127.0.0.1	pns.org.pk
 127.0.0.1	protechasia.com
@@ -207,6 +213,7 @@
 127.0.0.1	qlqd5zqefmkcr34a.onion.sh
 127.0.0.1	quanly.jxmienphi.net
 127.0.0.1	quanlyphongnet.com
+127.0.0.1	rappel-coinbase.com
 127.0.0.1	rd.chuitian.cn
 127.0.0.1	recepchtav3.com
 127.0.0.1	reifenquick.de
@@ -216,6 +223,7 @@
 127.0.0.1	rgueapp.com
 127.0.0.1	riverview-pools.com
 127.0.0.1	rocketibt.com
+127.0.0.1	ronnin-v2.com
 127.0.0.1	rtsfinancal.com
 127.0.0.1	rumble.tube
 127.0.0.1	rustbakingtable.com
@@ -227,7 +235,6 @@
 127.0.0.1	security-service-api-link.cc
 127.0.0.1	sfa.com.ar
 127.0.0.1	shell.dimitrimedia.com
-127.0.0.1	shqdown.ggzuhao.com
 127.0.0.1	sirault.be
 127.0.0.1	sms-szfang.com
 127.0.0.1	smsfastersend.com
@@ -238,12 +245,11 @@
 127.0.0.1	sporcketngearforu.com
 127.0.0.1	src1.minibai.com
 127.0.0.1	staatsgewalt.jameschans.de
-127.0.0.1	stdown.dinju.com
 127.0.0.1	storage.soowim.co.kr
 127.0.0.1	sufikhat.com
 127.0.0.1	suomi-app.net
 127.0.0.1	support.clz.kr
-127.0.0.1	symbietic.com
+127.0.0.1	symbiatec-fi.com
 127.0.0.1	symdlotic.com
 127.0.0.1	tecni-soft.com
 127.0.0.1	tecunonline.com
@@ -252,17 +258,16 @@
 127.0.0.1	tengfeidn.com
 127.0.0.1	test.peperoncinochepassione.it
 127.0.0.1	tests.yjzj.org
-127.0.0.1	theherbalhub.com
 127.0.0.1	thesignaturemag.salviatech.com
 127.0.0.1	titrans-cd.com
 127.0.0.1	toyscenter.cl
+127.0.0.1	treinamento.convenio.to.gov.br
 127.0.0.1	turkey-ivf.org
 127.0.0.1	twitch.cx
 127.0.0.1	twitch.tj
 127.0.0.1	twizt.net
 127.0.0.1	update.cg100iii.com
 127.0.0.1	update.vlnguba.com
-127.0.0.1	update.volam2005pk.com
 127.0.0.1	updateinfo-portal.com
 127.0.0.1	user.mypetapp.co.za
 127.0.0.1	utorrent-server-api.cc
@@ -273,6 +278,7 @@
 127.0.0.1	wingsaviationacademy-in.salviatech.com
 127.0.0.1	wingsaviationacademy.in
 127.0.0.1	www.albuspsikoloji.com.tr
+127.0.0.1	www.amako.xyz
 127.0.0.1	www.amun.jintsume.net
 127.0.0.1	www.aqianniao.com
 127.0.0.1	www.atc-secure.com
@@ -284,16 +290,19 @@
 127.0.0.1	www.cambodiatouristservice.com
 127.0.0.1	www.centralelatterieti.com
 127.0.0.1	www.cmcmarkets.work
+127.0.0.1	www.elefantenfutter.de
 127.0.0.1	www.expertuslugi.top
 127.0.0.1	www.fastfreight-loads.com
 127.0.0.1	www.fastfreightloads.com
 127.0.0.1	www.finocci.com
 127.0.0.1	www.first-security-verden.de
+127.0.0.1	www.flechabusretiro.com.ar
 127.0.0.1	www.globallaborsupply.com
+127.0.0.1	www.hseda.com
+127.0.0.1	www.immo-etoiles.fr
 127.0.0.1	www.ingonherbal.com
 127.0.0.1	www.kevinzhangadmin.jintsume.net
 127.0.0.1	www.laborpartyjo.com
-127.0.0.1	www.leeholmes.com
 127.0.0.1	www.littlemoroccanthings.com
 127.0.0.1	www.livemap-loads.com
 127.0.0.1	www.livemap-trucks.com
@@ -313,12 +322,13 @@
 127.0.0.1	www.sporcketngearforu.com
 127.0.0.1	www.starcountry.net
 127.0.0.1	www.tdejb.com
+127.0.0.1	www.tecunonline.com
+127.0.0.1	www.test.peperoncinochepassione.it
 127.0.0.1	www.thesignaturemag.salviatech.com
 127.0.0.1	www.titrans-cd.com
 127.0.0.1	www.user.mypetapp.co.za
 127.0.0.1	www.website.mypetapp.co.za
 127.0.0.1	www.wingsaviationacademy-in.salviatech.com
-127.0.0.1	www.xn--on3b15m2lco2u.com
 127.0.0.1	www.ysbaojia.com
 127.0.0.1	www.zamilgroups.com
 127.0.0.1	www.zhikey.com
@@ -335,4 +345,4 @@
 127.0.0.1	zamilgroups.com
 127.0.0.1	zettagc.com
 127.0.0.1	znrq.zifwxq.cn
-# Number of entries: 329
+# Number of entries: 339
